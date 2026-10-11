@@ -1,0 +1,47 @@
+import {loadFont} from '@remotion/fonts';
+import {staticFile} from 'remotion';
+
+// Шрифты дизайн-системы набора. loadFont сам держит рендер, пока файл не загрузится.
+loadFont({family: 'Manrope', url: staticFile('fonts/Manrope-Variable.ttf'), weight: '200 800'});
+loadFont({family: 'JBM', url: staticFile('fonts/JetBrainsMono-Variable.ttf'), weight: '100 800'});
+// Пиксельный стиль «воксельное стекло» (проба 19.09.2026). Pixelify отклонён: в кириллице «д» как «a», «ь» как «b».
+// DotGothic16 — заголовки (мелкий пиксель, чистая кириллица), Handjet — текст интерфейса (узкий, пиксельная сетка).
+loadFont({family: 'DotGothic16', url: staticFile('fonts/DotGothic16-Regular.ttf'), weight: '400'});
+// Handjet — подмножества с Google Fonts: в файле из репозитория google/fonts ось ELSH 0 — «пустая» форма, текст исчезает.
+const CYR = 'U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116';
+const LAT = 'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD';
+loadFont({family: 'Handjet', url: staticFile('fonts/Handjet-cyr.woff2'), weight: '100 900', unicodeRange: CYR, format: 'woff2'});
+loadFont({family: 'Handjet', url: staticFile('fonts/Handjet-lat.woff2'), weight: '100 900', unicodeRange: LAT, format: 'woff2'});
+// Стиль «техно-постер» (проба 19.09.2026 по референсам владельца: BLAST/CS, Cyberpunk 2025, M56):
+// Inter Tight — огромные заголовки, Tektur — техно-надписи, Martian Mono — технические подписи.
+loadFont({family: 'Inter Tight', url: staticFile('fonts/InterTight-Variable.ttf'), weight: '100 900'});
+loadFont({family: 'Tektur', url: staticFile('fonts/Tektur-Variable.ttf'), weight: '400 900'});
+loadFont({family: 'Martian Mono', url: staticFile('fonts/MartianMono-Variable.ttf'), weight: '100 800'});
+// Рукописный второй голос ролика 21 (Caveat, подмножества Google Fonts через fontsource): кириллица и латиница.
+loadFont({family: 'Caveat', url: staticFile('fonts/Caveat-cyr-600.woff2'), weight: '600', unicodeRange: CYR, format: 'woff2'});
+loadFont({family: 'Caveat', url: staticFile('fonts/Caveat-lat-600.woff2'), weight: '600', unicodeRange: LAT, format: 'woff2'});
+// Шрифты Apple (решение владельца 25.09.2026: «в основном JetBrains Mono и шрифты Apple»). Файлы из
+// <папка пользователя>\AppData\Local\Microsoft\Windows\Fonts, кириллица есть (U+0400–045F).
+// Orbitron — надписи HUD в духе Железного человека (только латиница), ролик «Джарвис» 26.09.2026.
+loadFont({family: 'Orbitron', url: staticFile('fonts/Orbitron-Variable.ttf'), weight: '400 900'});
+// SF Pro Display, SF Pro Text и SF Mono: файлы автора курса (30.09.2026), кириллица есть. На них собраны ролики 23–29 и стиль 15 ЛИСТ.
+const SF: [string, string, string, string?][] = [
+  ['SF Pro Display', 'SF-Pro-Display-Light.otf', '300'], ['SF Pro Display', 'SF-Pro-Display-Regular.otf', '400'],
+  ['SF Pro Display', 'SF-Pro-Display-Medium.otf', '500'], ['SF Pro Display', 'SF-Pro-Display-Semibold.otf', '600'],
+  ['SF Pro Display', 'SF-Pro-Display-Bold.otf', '700'], ['SF Pro Display', 'SF-Pro-Display-Heavy.otf', '800'],
+  ['SF Pro Display', 'SF-Pro-Display-Black.otf', '900'], ['SF Pro Display', 'SF-Pro-Display-BoldItalic.otf', '700', 'italic'],
+  ['SF Pro Display', 'SF-Pro-Display-HeavyItalic.otf', '800', 'italic'], ['SF Pro Display', 'SF-Pro-Display-BlackItalic.otf', '900', 'italic'],
+  ['SF Pro Text', 'SF-Pro-Text-Medium.otf', '500'], ['SF Pro Text', 'SF-Pro-Text-Bold.otf', '700'], ['SF Pro Text', 'SF-Pro-Text-Heavy.otf', '800'],
+];
+for (const [family, file, weight, style] of SF) loadFont({family, url: staticFile(`fonts/${file}`), weight, style: style ?? 'normal'});
+loadFont({family: 'SF Mono', url: staticFile('fonts/SF-Mono.ttf'), weight: '300 800'});
+// Стиль 15 ЛИСТ: Coolvetica для слов-акцентов.
+loadFont({family: 'Coolvetica', url: staticFile('fonts/Coolvetica-Regular.ttf'), weight: '400'});
+// Шрифты из ПАКа Apple (ИИ МОНТАЖ): Montserrat — заголовки и субтитры, Soyuz Grotesk — крупные слова КАПСОМ
+// (у строчной «д» вид «g», строчными не писать). Bebas Neue — узкие заголовки (стиль «Кокошка», 18 ТОЧКА).
+for (const [w, f] of [['400', 'Regular'], ['500', 'Medium'], ['600', 'SemiBold'], ['700', 'Bold'], ['800', 'ExtraBold'], ['900', 'Black']]) {
+  loadFont({family: 'Montserrat', url: staticFile(`fonts/Montserrat-${f}.ttf`), weight: w});
+}
+loadFont({family: 'Soyuz Grotesk', url: staticFile('fonts/SoyuzGrotesk-Bold.ttf'), weight: '700'});
+loadFont({family: 'Bebas Neue', url: staticFile('fonts/BebasNeue-Regular.ttf'), weight: '400'});
+loadFont({family: 'Bebas Neue', url: staticFile('fonts/BebasNeue-Bold.ttf'), weight: '700'});

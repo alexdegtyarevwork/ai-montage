@@ -1,0 +1,42 @@
+# Свои файлы ученика — в набор не входят и обновлениями не трогаются
+Видео/*
+Музыка/*
+Звуки/*
+Файлы/*
+Референсы/*
+Стили/*
+!Стили/_ШАБЛОН/
+Готовое/*
+!*/ЧТО СЮДА КЛАСТЬ.txt
+# Учебное видео для первой практики (агент берёт его, только когда ученик сам попросит)
+!Видео/для_практики.mp4
+# Node.js и FFmpeg для Mac на Intel (ставит установщик)
+.tools/
+# Движок: зависимости, модель речи, рендеры, ролики ученика, ключи
+engine/node_modules/
+engine/.whisper/
+engine/out/
+engine/tmp/
+engine/.env
+engine/public/work/
+engine/work/*
+!engine/work/.gitkeep
+engine/reviews/*
+!engine/reviews/.gitkeep
+# Демо-записи автора для пересборки превью стилей (npm run boards) — ученикам не нужны
+engine/public/demo/
+# Журнал команд и установки (только на компьютере ученика)
+engine/logs/
+install.log
+# Код роликов ученика (создаёт npm run new): студия находит их сама, обновление набора их не трогает
+engine/src/mine/*
+!engine/src/mine/README.md
+.DS_Store
+Thumbs.db
+# Временное: окружения Python для разборов, копии при обновлении стилей, личные настройки Claude
+/tmp/
+*.merge
+.claude/settings.local.json
+
+# Точка входа ручной правки нарезки — создаётся командой npm run cut:edit
+engine/src/entries/cut-edit.tsx

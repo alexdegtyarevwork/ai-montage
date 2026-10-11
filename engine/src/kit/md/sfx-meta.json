@@ -1,0 +1,524 @@
+{
+"chime": {
+"onset": 0.0,
+"peak": 0.01,
+"dur": 1.33,
+"db": -10.9
+},
+"click": {
+"onset": 0.02,
+"peak": 0.02,
+"dur": 0.96,
+"db": 3.0
+},
+"confirm": {
+"onset": 0.09,
+"peak": 0.12,
+"dur": 3.5,
+"db": -6.7
+},
+"crispy-click": {
+"onset": 0.0,
+"peak": 0.02,
+"dur": 2.1,
+"db": -11.3
+},
+"glass": {
+"onset": 0.12,
+"peak": 0.37,
+"dur": 2.74,
+"db": -11.6
+},
+"notification": {
+"onset": 0.09,
+"peak": 0.17,
+"dur": 2.59,
+"db": -9.5
+},
+"select": {
+"onset": 0.1,
+"peak": 0.15,
+"dur": 0.62,
+"db": -10.6
+},
+"pop": {
+"onset": 0.01,
+"peak": 0.01,
+"dur": 0.46,
+"db": 2.5
+},
+"blur": {
+"onset": 0.06,
+"peak": 0.34,
+"dur": 1.01,
+"db": -5.6
+},
+"counter": {
+"onset": 0.06,
+"peak": 0.1,
+"dur": 0.94,
+"db": -4.1
+},
+"flash": {
+"onset": 0.03,
+"peak": 0.07,
+"dur": 0.91,
+"db": 0.4
+},
+"pop-warm": {
+"onset": 0.09,
+"peak": 0.16,
+"dur": 0.98,
+"db": -15.2
+},
+"rev-whoosh": {
+"onset": 0.27,
+"peak": 0.65,
+"dur": 1.6,
+"db": -31.1
+},
+"riser": {
+"onset": 0.4,
+"peak": 0.9,
+"dur": 2.6,
+"db": -8.4
+},
+"rubber": {
+"onset": 0.08,
+"peak": 0.17,
+"dur": 0.86,
+"db": -4.5
+},
+"shake": {
+"onset": 0.07,
+"peak": 0.07,
+"dur": 1.74,
+"db": -3.0
+},
+"shimmer": {
+"onset": 0.17,
+"peak": 0.33,
+"dur": 0.9,
+"db": -10.9
+},
+"snap": {
+"onset": 0.03,
+"peak": 0.09,
+"dur": 0.3,
+"db": 1.0
+},
+"sub-hit": {
+"onset": 0.04,
+"peak": 0.33,
+"dur": 1.95,
+"db": -1.6
+},
+"switch": {
+"onset": 0.08,
+"peak": 0.08,
+"dur": 1.99,
+"db": 0.6
+},
+"tick-soft": {
+"onset": 0.04,
+"peak": 0.04,
+"dur": 0.14,
+"db": 2.8
+},
+"transform": {
+"onset": 0.02,
+"peak": 0.12,
+"dur": 0.48,
+"db": 2.1
+},
+"transform2": {
+"onset": 0.04,
+"peak": 0.11,
+"dur": 0.38,
+"db": -0.0
+},
+"typing": {
+"onset": 0.0,
+"peak": 0.47,
+"dur": 1.4,
+"db": 2.5
+},
+"ui-glass": {
+"onset": 0.03,
+"peak": 0.03,
+"dur": 0.27,
+"db": -20.4
+},
+"whoosh-big": {
+"onset": 0.04,
+"peak": 0.29,
+"dur": 1.74,
+"db": -5.3
+},
+"whoosh-long": {
+"onset": 0.05,
+"peak": 0.42,
+"dur": 1.2,
+"db": 0.0
+},
+"whoosh-long3": {
+"onset": 0.18,
+"peak": 0.42,
+"dur": 3.9,
+"db": -1.8
+},
+"whoosh-long4": {
+"onset": 0.16,
+"peak": 0.42,
+"dur": 1.92,
+"db": -1.0
+},
+"whoosh": {
+"onset": 0.08,
+"peak": 0.34,
+"dur": 2.32,
+"db": 0.2
+},
+"woosh-air": {
+"onset": 0.06,
+"peak": 0.29,
+"dur": 2.22,
+"db": 1.5
+},
+"zoom-deep": {
+"onset": 0.07,
+"peak": 0.14,
+"dur": 0.67,
+"db": -11.9
+},
+"zoom": {
+"onset": 0.0,
+"peak": 0.03,
+"dur": 0.43,
+"db": -4.8
+},
+"sheet/ab4": {
+"onset": 0.11,
+"peak": 0.12,
+"dur": 2.44,
+"db": -0.7
+},
+"sheet/ab6": {
+"onset": 0.03,
+"peak": 0.03,
+"dur": 1.4,
+"db": -0.1
+},
+"sheet/ab7": {
+"onset": 0.03,
+"peak": 0.04,
+"dur": 0.94,
+"db": 0.0
+},
+"sheet/b2": {
+"onset": 0.0,
+"peak": 0.02,
+"dur": 0.36,
+"db": -2.2
+},
+"sheet/b3": {
+"onset": 0.0,
+"peak": 0.02,
+"dur": 0.54,
+"db": 0.0
+},
+"sheet/b4": {
+"onset": 0.0,
+"peak": 0.0,
+"dur": 0.28,
+"db": 0.0
+},
+"sheet/b5": {
+"onset": 0.0,
+"peak": 0.0,
+"dur": 0.29,
+"db": -5.8
+},
+"sheet/b6": {
+"onset": 0.0,
+"peak": 0.04,
+"dur": 0.53,
+"db": 0.0
+},
+"sheet/b7": {
+"onset": 0.0,
+"peak": 0.05,
+"dur": 0.17,
+"db": -5.0
+},
+"sheet/b8": {
+"onset": 0.0,
+"peak": 0.0,
+"dur": 0.34,
+"db": 0.0
+},
+"sheet/chime": {
+"onset": 0.0,
+"peak": 0.01,
+"dur": 1.33,
+"db": 0.0
+},
+"sheet/click": {
+"onset": 0.02,
+"peak": 0.02,
+"dur": 0.96,
+"db": 0.0
+},
+"sheet/click4": {
+"onset": 0.02,
+"peak": 0.02,
+"dur": 0.96,
+"db": 0.0
+},
+"sheet/confirm": {
+"onset": 0.09,
+"peak": 0.12,
+"dur": 3.5,
+"db": 0.0
+},
+"sheet/count": {
+"onset": 0.0,
+"peak": 0.13,
+"dur": 0.63,
+"db": 0.0
+},
+"sheet/counter": {
+"onset": 0.06,
+"peak": 0.1,
+"dur": 0.94,
+"db": -4.2
+},
+"sheet/crispy": {
+"onset": 0.0,
+"peak": 0.02,
+"dur": 0.4,
+"db": 0.0
+},
+"sheet/eq1": {
+"onset": 0.0,
+"peak": 0.01,
+"dur": 1.03,
+"db": 0.0
+},
+"sheet/eq2": {
+"onset": 0.0,
+"peak": 0.04,
+"dur": 1.12,
+"db": 0.0
+},
+"sheet/eq3": {
+"onset": 0.0,
+"peak": 0.0,
+"dur": 1.2,
+"db": 0.0
+},
+"sheet/eq4": {
+"onset": 0.0,
+"peak": 0.1,
+"dur": 1.16,
+"db": 0.0
+},
+"sheet/eq5": {
+"onset": 0.0,
+"peak": 0.0,
+"dur": 1.21,
+"db": 0.0
+},
+"sheet/eq6": {
+"onset": 0.0,
+"peak": 0.1,
+"dur": 1.12,
+"db": 0.0
+},
+"sheet/es-close": {
+"onset": 0.0,
+"peak": 0.02,
+"dur": 0.5,
+"db": 0.0
+},
+"sheet/es-fan": {
+"onset": 0.01,
+"peak": 0.1,
+"dur": 1.02,
+"db": -0.3
+},
+"sheet/es-open": {
+"onset": 0.0,
+"peak": 0.07,
+"dur": 2.21,
+"db": -5.8
+},
+"sheet/ext": {
+"onset": 0.05,
+"peak": 0.12,
+"dur": 0.6,
+"db": 0.0
+},
+"sheet/glass": {
+"onset": 0.12,
+"peak": 0.37,
+"dur": 2.74,
+"db": -0.9
+},
+"sheet/hit1": {
+"onset": 0.08,
+"peak": 0.08,
+"dur": 0.63,
+"db": -0.3
+},
+"sheet/hit2": {
+"onset": 0.02,
+"peak": 0.02,
+"dur": 0.73,
+"db": -3.7
+},
+"sheet/hit3": {
+"onset": 0.03,
+"peak": 0.04,
+"dur": 0.9,
+"db": -3.1
+},
+"sheet/hit4": {
+"onset": 0.05,
+"peak": 0.05,
+"dur": 0.77,
+"db": -0.9
+},
+"sheet/notif": {
+"onset": 0.09,
+"peak": 0.17,
+"dur": 2.59,
+"db": 0.0
+},
+"sheet/pop": {
+"onset": 0.01,
+"peak": 0.01,
+"dur": 0.46,
+"db": 0.0
+},
+"sheet/popup": {
+"onset": 0.01,
+"peak": 0.01,
+"dur": 0.46,
+"db": 0.0
+},
+"sheet/select": {
+"onset": 0.1,
+"peak": 0.15,
+"dur": 0.62,
+"db": -4.2
+},
+"sheet/sw-01": {
+"onset": 0.07,
+"peak": 0.51,
+"dur": 3.09,
+"db": 0.0
+},
+"sheet/sw-04": {
+"onset": 0.12,
+"peak": 0.38,
+"dur": 2.42,
+"db": 0.0
+},
+"sheet/sw-06": {
+"onset": 0.04,
+"peak": 0.19,
+"dur": 1.85,
+"db": -0.1
+},
+"sheet/sw-07": {
+"onset": 0.06,
+"peak": 0.27,
+"dur": 2.5,
+"db": -0.7
+},
+"sheet/sw-08": {
+"onset": 0.13,
+"peak": 0.4,
+"dur": 3.17,
+"db": 0.0
+},
+"sheet/sw-10": {
+"onset": 0.05,
+"peak": 0.41,
+"dur": 1.9,
+"db": -1.1
+},
+"sheet/sw-long": {
+"onset": 0.13,
+"peak": 0.43,
+"dur": 1.85,
+"db": 0.0
+},
+"sheet/sw-s1": {
+"onset": 0.01,
+"peak": 0.16,
+"dur": 0.94,
+"db": 0.0
+},
+"sheet/sw-s4": {
+"onset": 0.0,
+"peak": 0.1,
+"dur": 0.94,
+"db": -2.4
+},
+"sheet/sw-s5": {
+"onset": 0.01,
+"peak": 0.32,
+"dur": 1.41,
+"db": 0.0
+},
+"sheet/sw-s6": {
+"onset": 0.01,
+"peak": 0.14,
+"dur": 0.94,
+"db": 0.0
+},
+"sheet/sw-s7": {
+"onset": 0.01,
+"peak": 0.21,
+"dur": 0.99,
+"db": 0.0
+},
+"sheet/tr-a": {
+"onset": 0.02,
+"peak": 0.12,
+"dur": 0.48,
+"db": -0.8
+},
+"sheet/tr-b": {
+"onset": 0.04,
+"peak": 0.11,
+"dur": 0.38,
+"db": -2.1
+},
+"sheet/type-a": {
+"onset": 0.12,
+"peak": 0.37,
+"dur": 4.0,
+"db": -0.0
+},
+"sheet/type-b": {
+"onset": 0.02,
+"peak": 0.03,
+"dur": 6.0,
+"db": -0.1
+},
+"myata/mosquito-flyby": {
+"onset": 0.01,
+"peak": 0.7,
+"dur": 1.4,
+"db": -4.7
+},
+"myata/mosquito-loop": {
+"onset": 0.0,
+"peak": 1.55,
+"dur": 3.0,
+"db": -7.2
+}
+}
